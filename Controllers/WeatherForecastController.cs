@@ -8,7 +8,7 @@ namespace WAD._00017005.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Testing", "Second commit"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Testing", "Second commit", "testing commits"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
