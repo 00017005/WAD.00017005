@@ -24,7 +24,7 @@ namespace WAD._00017005.Controllers
             return Ok(events);
         }
 
-        // GET: api/events/5
+        // GET
         [HttpGet("{id}")]
         public async Task<ActionResult<Event>> GetEvent(int id)
         {
@@ -38,7 +38,7 @@ namespace WAD._00017005.Controllers
             return Ok(eventEntity);
         }
 
-        // POST: api/events
+        // POST
         [HttpPost]
         public async Task<ActionResult<Event>> PostEvent(Event eventEntity)
         {
@@ -46,7 +46,7 @@ namespace WAD._00017005.Controllers
             return CreatedAtAction(nameof(GetEvent), new { id = eventEntity.Id }, eventEntity);
         }
 
-        // PUT: api/events/5
+        // PUT
         [HttpPut("{id}")]
         public async Task<IActionResult> PutEvent(int id, Event eventEntity)
         {
@@ -60,7 +60,7 @@ namespace WAD._00017005.Controllers
             return NoContent();
         }
 
-        // DELETE: api/events/5
+        // DELETE
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEvent(int id)
         {

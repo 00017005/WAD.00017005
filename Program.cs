@@ -4,7 +4,6 @@ using WAD._00017005.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Register services
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

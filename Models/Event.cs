@@ -2,10 +2,10 @@
 {
     public class Event
     {
-        public int Id { get; set; }  // Primary Key
-        public string Name { get; set; }  // Name of the event
-        public DateTime Date { get; set; }  // Date of the event
-        public string Location { get; set; }  // Event location
-        public string Description { get; set; }  // Event description
+        public int Id { get; set; }  
+        public string Name { get; set; }  
+        public DateTime Date { get; set; }  
+        public string Location { get; set; }  
+        public string Description { get; set; }  
     }
 }
