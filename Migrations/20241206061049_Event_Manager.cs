@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WAD._00017005.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Event_Manager : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

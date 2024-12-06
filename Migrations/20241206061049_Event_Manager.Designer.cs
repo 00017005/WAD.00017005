@@ -12,8 +12,8 @@ using WAD._00017005.Data;
 namespace WAD._00017005.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241205174102_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241206061049_Event_Manager")]
+    partial class Event_Manager
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
